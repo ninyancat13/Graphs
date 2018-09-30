@@ -8,6 +8,7 @@ class GraphNode:
     
     def __init__(self, key):
         self.key = key
+ 
 
 class Graph:
 
