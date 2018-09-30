@@ -7,8 +7,7 @@ verticeslist = DSALinkedList()
 class GraphNode:
     
     def __init__(self, key):
-        self.key = key
- 
+        self.key = key 
 
 class Graph:
 
@@ -26,7 +25,6 @@ class Graph:
                 verticeslist.insertLast(key)
             if link.key != key[0]:
                 pass
-
 
     def print_graph(self):
         print("Let us try iterate over verticeslist") 
